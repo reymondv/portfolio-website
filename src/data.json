@@ -1,0 +1,194 @@
+{
+    "profile": {
+        "description": ["Aspiring Fullstack software engineer but heavily interested in backend side of the application. A team player who wants to work closely with the team to deliver efficient and fully functional application.", "Experienced working in an agile scrum methodology during my internship, but to limited access with the team", "Currently self-studying popular tech stack like React, Angular, Node, and MongoDB"],
+        "name": "Reymond Y. Villanueva",
+        "location": "La Union, Philippines",
+        "gender": "Male",
+        "school": {
+            "name": "Saint Louis University",
+            "location": "Baguio City, Philippines",
+            "graduated": "June 2022"
+        },
+        "degree": {
+            "abbr": "BSIT",
+            "short": "BS in Information Technology",
+            "full": "Bachelor of Science in Information Technology"
+        }
+    },
+    "cv": {
+        "file": "/cv.reymond.villanueva.pdf",
+        "name": "My CV",
+        "label": "CV"
+    },
+    "skills": {
+        "general": [
+            "Fullstack Developer", "Backend Developer", "Web and Software application", "Networking"
+        ],
+        "stack": [{
+                "name": "HTML5",
+                "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+            },
+            {
+                "name": "CSS3",
+                "img": "https://img.icons8.com/color/48/000000/css3.png"
+            },
+            {
+                "name": "Bootstrap",
+                "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
+            },
+            {
+                "name": "TailwindCSS",
+                "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+            },
+            {
+                "name": "JavaScript",
+                "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+            },
+            {
+                "name": "Laravel",
+                "img": "https://img.icons8.com/fluency/48/000000/laravel.png"
+            },
+            {
+                "name": "PHP",
+                "img": "https://img.icons8.com/offices/40/000000/php-logo.png"
+            },
+            {
+                "name": "React",
+                "img": "https://img.icons8.com/office/40/000000/react.png"
+            },
+
+            {
+                "name": "Java",
+                "img": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+            },
+            {
+                "name": "Python",
+                "img": "https://img.icons8.com/color/48/000000/python--v1.png"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+            },
+            {
+                "name": "Git",
+                "img": "https://img.icons8.com/color/48/000000/git.png"
+            }
+        ],
+        "other": ["Network administration", "Network troubleshooting", "Git", "Microsoft Power Apps"]
+    },
+    "experience": [{
+            "position": "Web Application Developer",
+            "company": "Squadzip",
+            "date": "August 2022 - Present",
+            "work": "React and Ruby on Rails",
+            "component": "WorkTwoToneIcon",
+            "link": "https://squadzip.com/"
+        },
+        {
+            "position": "Application Developer (Internship Trainee)",
+            "company": "Accenture",
+            "date": "February 2022 - June 2022",
+            "work": "Developed an application using Microsoft Power Apps and SharePoint List as the application's back-end. I've been trained and knowledgeable in Microsoft Power Automate and exposed in collaboration with the team during scrums and sprint meetings.",
+            "component": "SchoolTwoToneIcon",
+            "link": "https://accenture.com/"
+        },
+        {
+            "position": "Lead Programmer (Thesis Project)",
+            "company": "Saint Louis University",
+            "date": "May 2021 - November 2021",
+            "work": "Developed an Asset Management System for DICT - Luzon Cluster 1 for my capstone(IT Project) as a Full-stack web developer and the Lead Programmer of the team. Web development background and technologies used are HTML5, CSS3, JavaScript, PHP, Laravel 7, Bootstrap, and MySQL.",
+            "component": "SchoolTwoToneIcon",
+            "link": "https://www.slu.edu.ph/"
+        }
+    ],
+    "links": {
+        "email": "reymondyv@gmail.com",
+        "github": "http://github.com/reymondv",
+        "linkedin": "http://linkedin.com/in/reymondyv"
+    },
+    "projects": [{
+            "title": "Personal Website Portfolio",
+            "file": "/carousel/portfolio-2.png",
+            "link": "https://github.com/reymondv/my-portfolio",
+            "description": "",
+            "stack": [{
+                    "name": "React",
+                    "img": "https://img.icons8.com/office/40/000000/react.png"
+                },
+                {
+                    "name": "JavaScript",
+                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+                },
+                {
+                    "name": "HTML5",
+                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+                },
+                {
+                    "name": "CSS3",
+                    "img": "https://img.icons8.com/color/48/000000/css3.png"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+                }
+            ]
+        },
+        {
+            "title": "DICT Asset Management System",
+            "file": "/carousel/project-1.png",
+            "description": "",
+            "stack": [{
+                    "name": "Laravel",
+                    "img": "https://img.icons8.com/fluency/48/000000/laravel.png"
+                },
+                {
+                    "name": "PHP",
+                    "img": "https://img.icons8.com/offices/40/000000/php-logo.png"
+                },
+                {
+                    "name": "JavaScript",
+                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+                },
+                {
+                    "name": "HTML5",
+                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+                },
+                {
+                    "name": "CSS3",
+                    "img": "https://img.icons8.com/color/48/000000/css3.png"
+                },
+                {
+                    "name": "Bootstrap",
+                    "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
+                },
+                {
+                    "name": "MySQL",
+                    "img": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+                },
+                {
+                    "name": "Git",
+                    "img": "https://img.icons8.com/color/48/000000/git.png"
+                }
+            ]
+        },
+        {
+            "title": "FAQ's Chatbot",
+            "file": "/carousel/project-2.png",
+            "link": "https://gitlab.com/2191962/data-mining-chatbot",
+            "description": "",
+            "stack": [{
+                    "name": "Python",
+                    "img": "https://img.icons8.com/color/48/000000/python--v1.png"
+                },
+                {
+                    "name": "HTML5",
+                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+                },
+                {
+                    "name": "CSS3",
+                    "img": "https://img.icons8.com/color/48/000000/css3.png"
+                }
+            ]
+        }
+    ]
+}

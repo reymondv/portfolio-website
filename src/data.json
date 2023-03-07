@@ -1,6 +1,7 @@
 {
     "profile": {
-        "description": ["Aspiring Fullstack software engineer but heavily interested in backend side of the application. A team player who wants to work closely with the team to deliver efficient and fully functional application.", "Experienced working in an agile scrum methodology during my internship, but to limited access with the team", "Currently self-studying popular tech stack like React, Angular, Node, and MongoDB"],
+        "displayPicture": "/images/profile.jpg",
+        "description": ["As a skilled web developer/software engineer, I optimize website performance, functionality, and user experience using technologies like React, Ruby on Rails, and PostgreSQL.", "I'm proficient in React's Context API and Redux, and knowledgeable in JS and TS, HTML, CSS, TailwindCSS, Firebase.", "My expertise, attention to detail, and dedication to best practices make me an asset to any team, and I deliver visually appealing, functional, and user-friendly websites while staying up to date with the latest trends and technologies in the field."],
         "name": "Reymond Y. Villanueva",
         "location": "La Union, Philippines",
         "gender": "Male",
@@ -22,27 +23,35 @@
     },
     "skills": {
         "general": [
-            "Fullstack Developer", "Backend Developer", "Web and Software application", "Networking"
+            "Fullstack Developer", "Frontend Developer", "Web and Software application"
         ],
         "stack": [{
-                "name": "HTML5",
-                "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-            },
-            {
-                "name": "CSS3",
-                "img": "https://img.icons8.com/color/48/000000/css3.png"
-            },
-            {
-                "name": "Bootstrap",
-                "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
+                "name": "React",
+                "img": "https://img.icons8.com/office/40/000000/react.png"
             },
             {
                 "name": "TailwindCSS",
                 "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
             },
             {
+                "name": "Bootstrap",
+                "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
+            },
+            {
+                "name": "TypeScript",
+                "img": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png"
+            },
+            {
                 "name": "JavaScript",
                 "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+            },
+            {
+                "name": "HTML5",
+                "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+            },
+            {
+                "name": "CSS3",
+                "img": "https://img.icons8.com/color/48/000000/css3.png"
             },
             {
                 "name": "Laravel",
@@ -53,10 +62,9 @@
                 "img": "https://img.icons8.com/offices/40/000000/php-logo.png"
             },
             {
-                "name": "React",
-                "img": "https://img.icons8.com/office/40/000000/react.png"
+                "name": "Ruby on Rails",
+                "img": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-rails-a-server-side-web-application-framework-written-in-ruby-logo-color-tal-revivo.png"
             },
-
             {
                 "name": "Java",
                 "img": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
@@ -64,6 +72,18 @@
             {
                 "name": "Python",
                 "img": "https://img.icons8.com/color/48/000000/python--v1.png"
+            },
+            {
+                "name": "PostgreSQL",
+                "img": "https://img.icons8.com/color/48/postgreesql.png"
+            },
+            {
+                "name": "Redis",
+                "img": "https://img.icons8.com/color/48/redis.png"
+            },
+            {
+                "name": "Firebase",
+                "img": "https://img.icons8.com/color/48/firebase.png"
             },
             {
                 "name": "MySQL",

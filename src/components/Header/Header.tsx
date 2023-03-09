@@ -19,11 +19,19 @@ const Header = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.pageYOffset >= 250) {
+      if (window.pageYOffset >= 80 && window.innerWidth < 768) {
         setHeaderBg(true);
       }
 
-      if (window.pageYOffset <= 180) {
+      if (window.pageYOffset <= 60 && window.innerWidth < 768) {
+        setHeaderBg(false);
+      }
+
+      if (window.pageYOffset >= 250 && window.innerWidth >= 768) {
+        setHeaderBg(true);
+      }
+
+      if (window.pageYOffset <= 180 && window.innerWidth >= 768) {
         setHeaderBg(false);
       }
     };

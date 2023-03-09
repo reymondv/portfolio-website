@@ -8,18 +8,20 @@ function App() {
     <div className='App'>
       <Header />
       <main className=''>
-        <div id='about' className='h-screen w-screen border-b border-white'>
+        <section
+          id='about'
+          className='md:h-screen md:w-screen h-full p-12 md:pt-0 max-w-2xl md:max-w-6xl m-auto flex flex-col'>
           <About />
-        </div>
-        <div
+        </section>
+        <section
           id='experience'
-          className='h-screen w-screen border-b border-white'></div>
-        <div
+          className='md:h-screen md:w-screen h-full p-12 md:py-0 max-w-2xl md:max-w-6xl m-auto'></section>
+        <section
           id='project'
-          className='h-screen w-screen border-b border-white'></div>
-        <div
+          className='md:h-screen md:w-screen h-full p-12 md:py-0 max-w-2xl md:max-w-6xl m-auto'></section>
+        <section
           id='contact'
-          className='h-screen w-screen border-b border-white'></div>
+          className='md:h-screen md:w-screen h-full p-12 md:py-0 max-w-2xl md:max-w-6xl m-auto'></section>
       </main>
       <Footer />
     </div>

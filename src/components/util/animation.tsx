@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import data from '../../data.json';
 import { motion, useAnimation } from 'framer-motion';
-import { nameContainer, item } from './variants';
+import { nameContainer, roleContainer, item } from './variants';
 
 export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
   const { name } = data.profile;
@@ -26,12 +26,16 @@ export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
         <motion.span
           key={idx}
           className={
-            'text-4xl font-bold mb-3 select-none ' + (char == ' ' ? 'w-4' : '')
+            'md:text-4xl text-2xl font-bold select-none ' +
+            (char == ' ' ? 'w-4' : '')
           }
           variants={item}>
           {char}
         </motion.span>
       ))}
+      <motion.span variants={item} className='my-auto text-orange-400'>
+        &nbsp;&nbsp;| Software Engineer
+      </motion.span>
     </motion.div>
   );
 };

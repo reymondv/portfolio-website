@@ -13,7 +13,7 @@ const Card = ({ img, title }: Skills) => {
       <div className='m-auto'>
         <img src={img} alt={title} title={title} height={40} width={40} />
       </div>
-      <span className='m-auto text-black'>{title}</span>
+      <span className=' md:hidden m-auto text-black'>{title}</span>
     </div>
   );
 };

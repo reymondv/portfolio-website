@@ -18,24 +18,29 @@ export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
 
   return (
     <motion.div
-      className='flex'
+      className='flex flex-wrap md:flex-nowrap'
       initial='hidden'
       animate={controls}
       variants={nameContainer}>
-      {nameArray.map((char, idx) => (
-        <motion.span
-          key={idx}
-          className={
-            'md:text-4xl text-2xl font-bold select-none ' +
-            (char == ' ' ? 'w-4' : '')
-          }
-          variants={item}>
-          {char}
-        </motion.span>
-      ))}
-      <motion.span variants={item} className='my-auto text-orange-400'>
-        &nbsp;&nbsp;| Software Engineer
-      </motion.span>
+      <div>
+        {nameArray.map((char, idx) => (
+          <motion.span
+            key={idx}
+            className={
+              'md:text-4xl text-2xl font-bold select-none ' +
+              (char == ' ' ? 'w-4' : '')
+            }
+            variants={item}>
+            {char}
+          </motion.span>
+        ))}
+      </div>
+      <div className='basis-full h-0 md:hidden'></div>
+      <motion.div
+        variants={item}
+        className='text-orange-400 md:ml-3 md:border-l-2 flex md:pl-2 md:border-l-orange-400'>
+        <p className='my-auto'>Software Engineer</p>
+      </motion.div>
     </motion.div>
   );
 };

@@ -12,8 +12,11 @@ const About = () => {
   const { general, stack } = data.skills;
 
   const controls = useAnimation();
+  const controlsStack = useAnimation();
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const stackRef = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const isInViewStack = useInView(stackRef, { once: true });
   console.log(data);
   useEffect(() => {
     if (isInView) {
@@ -21,7 +24,13 @@ const About = () => {
     } else {
       controls.start('hidden');
     }
-  }, [controls, isInView]);
+
+    if (isInViewStack) {
+      controlsStack.start('visible');
+    } else {
+      controlsStack.start('hidden');
+    }
+  }, [controls, isInView, isInViewStack]);
 
   return (
     <div className='m-auto'>
@@ -46,15 +55,21 @@ const About = () => {
           {description.map((description, index) => (
             <motion.p
               key={index}
-              className='opacity-50 text-comment tracking-normal mb-2 md:mb-0'
+              className='opacity-50 text-comment tracking-normal my-2 md:mb-0'
               variants={item}>
               // {description}
             </motion.p>
           ))}
         </motion.div>
       </div>
-      <motion.div initial='hidden' animate={controls} variants={stackContainer}>
-        <h3 className='mb-3'>Technology stack:</h3>
+      <motion.div
+        ref={stackRef}
+        initial='hidden'
+        animate={controls}
+        variants={stackContainer}>
+        <h3 className='mb-3'>
+          <i className='fas fa-layer-group'></i>&nbsp;Technology stack
+        </h3>
         <div className='grid gap-3 grid-cols-2 md:grid-cols-8 md:px-0 text-sm'>
           {stack.map((stack, index) => (
             <motion.div key={index} variants={item}>

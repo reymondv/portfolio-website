@@ -84,22 +84,22 @@ const Header = () => {
             id='hamburger-btn'
           />
           <ul className='md:flex hidden peer-checked/hamburger:flex flex-col absolute bg-black opacity-95 w-full h-[100svh] left-0 md:bg-c md:static md:flex-row md:h-[unset] items-center m-0 md:bg-[unset] text-4xl md:text-base'>
-            <li className='mx-3 py-1 mt-4 md:mt-0'>
+            <li className='mx-3 py-1 mt-4 md:mt-0 hover:text-cyan-300 transition-all ease-in-out duration-200'>
               <a onClick={toggleHamburgerIcon} href='#about'>
                 about
               </a>
             </li>
-            <li className='mx-3 py-1'>
+            <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
               <a onClick={toggleHamburgerIcon} href='#experience'>
                 experience
               </a>
             </li>
-            <li className='mx-3 py-1'>
+            <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
               <a onClick={toggleHamburgerIcon} href='#project'>
                 projects
               </a>
             </li>
-            <li className='mx-3 py-1'>
+            <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
               <a onClick={toggleHamburgerIcon} href='#contact'>
                 contact.me
               </a>

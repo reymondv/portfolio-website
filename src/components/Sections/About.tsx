@@ -67,9 +67,9 @@ const About = () => {
         initial='hidden'
         animate={controls}
         variants={stackContainer}>
-        <h3 className='mb-3'>
+        <h1 className='mb-3 text-lg'>
           <i className='fas fa-layer-group'></i>&nbsp;Technology stack
-        </h3>
+        </h1>
         <div className='grid gap-3 grid-cols-2 md:grid-cols-8 md:px-0 text-sm'>
           {stack.map((stack, index) => (
             <motion.div key={index} variants={item}>

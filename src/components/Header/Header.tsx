@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-
+import { BsGithub, BsLinkedin, BsMailbox } from 'react-icons/bs';
+import { AiFillMail } from 'react-icons/ai';
+import { MdMail } from 'react-icons/md';
 const Header = () => {
   const [toggle, setToggle] = useState<boolean>(false);
   const checkboxRef = useRef<HTMLInputElement>(null);
@@ -99,11 +101,35 @@ const Header = () => {
                 projects
               </a>
             </li>
-            <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
-              <a onClick={toggleHamburgerIcon} href='#contact'>
-                contact.me
-              </a>
-            </li>
+            <div className='flex flex-row'>
+              <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
+                <a
+                  href='mailto:reymondyv@gmail.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  title='Email'>
+                  <MdMail className='text-orange-500 hover:text-cyan-400 transition-all ease-in-out duration-200 h-12 md:h-7 w-auto' />
+                </a>
+              </li>
+              <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
+                <a
+                  target='_blank'
+                  href='https://github.com/reymondv'
+                  rel='noopener noreferrer'
+                  title='Github'>
+                  <BsGithub className='text-orange-500 hover:text-cyan-400 transition-all ease-in-out duration-200 h-12 md:h-7 w-auto' />
+                </a>
+              </li>
+              <li className='mx-3 py-1 hover:text-cyan-300 transition-all ease-in-out duration-200'>
+                <a
+                  href='https://www.linkedin.com/in/reymondyv/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  title='Linkedin'>
+                  <BsLinkedin className='text-orange-500 hover:text-cyan-400 transition-all ease-in-out duration-200 h-12 md:h-7 w-auto' />
+                </a>
+              </li>
+            </div>
           </ul>
         </div>
       </div>

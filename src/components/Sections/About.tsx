@@ -55,7 +55,7 @@ const About = () => {
           {description.map((description, index) => (
             <motion.p
               key={index}
-              className='opacity-50 text-comment tracking-normal my-2 md:mb-0'
+              className='opacity-50 text-lg md:text-base text-comment tracking-normal my-2 md:mb-0'
               variants={item}>
               // {description}
             </motion.p>
@@ -73,7 +73,12 @@ const About = () => {
         <div className='grid gap-3 grid-cols-2 md:grid-cols-8 md:px-0 text-sm'>
           {stack.map((stack, index) => (
             <motion.div key={index} variants={item}>
-              <Card img={stack.img} title={stack.name} />
+              <Card
+                className='flex justify-center align-middle flex-col bg-white shadow-inner shadow-[#00000092] rounded-xl p-2'
+                img={stack.img}
+                title={stack.name}
+                size={40}
+              />
             </motion.div>
           ))}
         </div>

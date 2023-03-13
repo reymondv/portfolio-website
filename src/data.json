@@ -97,12 +97,12 @@
             "company": "Squadzip",
             "from": "August 2022",
             "to": "Present",
-            "work": "Migrated web application from version 1 to version 2 providing optimized solution and applying best practices using React and Ruby on Rails. Providing new features based on the client requests and application's improvement. Maintain old and new features of the application.",
+            "work": "Migrating company's web application from version 1 to version 2, providing optimized solution and applying best practices using React and Ruby on Rails. Providing new features based on the client requests and application's improvement. Maintain old and new features of the application.",
             "component": "WorkTwoToneIcon",
             "link": "https://squadzip.com/"
         },
         {
-            "position": "Application Developer (Internship Trainee)",
+            "position": "Application Developer Internship",
             "company": "Accenture",
             "from": "February 2022",
             "to": "June 2022",
@@ -126,29 +126,63 @@
         "linkedin": "http://linkedin.com/in/reymondyv"
     },
     "projects": [{
-            "title": "Personal Website Portfolio",
-            "file": "/carousel/portfolio-2.png",
-            "link": "https://github.com/reymondv/my-portfolio",
+            "title": "Realtime Chat using Firestore",
+            "file": "/carousel/project-3.png",
+            "link": "https://github.com/reymondv/vite-ts-react",
             "description": "",
             "stack": [{
                     "name": "React",
                     "img": "https://img.icons8.com/office/40/000000/react.png"
                 },
                 {
-                    "name": "JavaScript",
-                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+                    "name": "TypeScript",
+                    "img": "https://img.icons8.com/color/48/typescript.png"
                 },
                 {
-                    "name": "HTML5",
-                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-                },
-                {
-                    "name": "CSS3",
-                    "img": "https://img.icons8.com/color/48/000000/css3.png"
+                    "name": "Firebase",
+                    "img": "https://img.icons8.com/color/48/firebase.png"
                 },
                 {
                     "name": "TailwindCSS",
                     "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+                }
+            ]
+        },
+        {
+            "title": "Shopping Cart",
+            "file": "/carousel/project-5.png",
+            "link": "https://github.com/reymondv/shopping-cart",
+            "description": "",
+            "stack": [{
+                    "name": "React",
+                    "img": "https://img.icons8.com/office/40/000000/react.png"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "https://img.icons8.com/color/48/typescript.png"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+                }
+            ]
+        },
+        {
+            "title": "Simple Social Media Application",
+            "file": "/carousel/project-4.png",
+            "link": "https://github.com/reymondv/shopping-cart",
+            "description": "",
+            "stack": [{
+                    "name": "React",
+                    "img": "https://img.icons8.com/office/40/000000/react.png"
+                },
+                {
+                    "name": "Javascript",
+                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+                },
+                {
+                    "name": "CSS3",
+                    "img": "https://img.icons8.com/color/48/000000/css3.png"
                 }
             ]
         },
@@ -167,14 +201,6 @@
                 {
                     "name": "JavaScript",
                     "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-                },
-                {
-                    "name": "HTML5",
-                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-                },
-                {
-                    "name": "CSS3",
-                    "img": "https://img.icons8.com/color/48/000000/css3.png"
                 },
                 {
                     "name": "Bootstrap",

@@ -8,6 +8,10 @@ module.exports = {
         sub: '#00ec47',
         comment: '#8E8E8E',
       },
+      gridTemplateColumns: {
+        // Auto fill grid column
+        'auto': 'repeat(auto-fit, minmax(100px, 1fr))',
+      }
     },
   },
   plugins: [],

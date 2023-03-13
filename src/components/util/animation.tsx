@@ -22,7 +22,7 @@ export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
       initial='hidden'
       animate={controls}
       variants={nameContainer}>
-      <div>
+      <div className='flex'>
         {nameArray.map((char, idx) => (
           <motion.span
             key={idx}

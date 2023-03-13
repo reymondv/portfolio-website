@@ -15,7 +15,7 @@ function App() {
         </section>
         <section
           id='experience'
-          className='md:h-screen md:w-screen h-full p-12 max-w-2xl md:max-w-6xl m-auto'>
+          className='md:h-full md:w-screen h-full p-12 max-w-2xl md:max-w-6xl m-auto'>
           <Experience />
         </section>
         <section

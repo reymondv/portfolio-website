@@ -1,8 +1,9 @@
 {
     "profile": {
         "displayPicture": "/images/profile.jpg",
-        "description": ["As a skilled web developer/software engineer, I optimize website performance, functionality, and user experience using technologies like React, Ruby on Rails, and PostgreSQL.", "I'm proficient in React's Context API and Redux, and knowledgeable in JS and TS, HTML, CSS, TailwindCSS, Firebase.", "My expertise, attention to detail, and dedication to best practices make me an asset to any team, and I deliver visually appealing, functional, and user-friendly websites while staying up to date with the latest trends and technologies in the field."],
+        "description": ["Full-stack developer with 3+ years of experience delivering scalable and maintainable web and API solutions. Proven success in building SaaS platforms, CRM tools, and fintech onboarding systems using modern technologies across the stack. Strong collaborator with cross-functional teams to drive efficient, high-quality software delivery."],
         "name": "Reymond Y. Villanueva",
+        "role": "Fullstack Software Engineer",
         "location": "La Union, Philippines",
         "gender": "Male",
         "school": {
@@ -92,14 +93,33 @@
         ],
         "other": ["Network administration", "Network troubleshooting", "Git", "Microsoft Power Apps"]
     },
-    "experience": [{
+    "experience": [
+        {
+            "position": "Software Engineer (Outsourced via Ascendion)",
+            "company": "PayMongo",
+            "from": "August 2024",
+            "to": "Present",
+            "work": "Contributed to full-stack development of onboarding and account management for parent-child merchant systems using React (Remix) and Ruby on Rails; built KYC flows, dashboard components, and webhook notifications with Sidekiq and the observer pattern; supported deployments via AWS Session Manager and ECS Exec, improved API performance and security through SQL optimization and rate limiting, and collaborated cross-functionally to deliver high-quality features.",
+            "component": "WorkTwoToneIcon",
+            "link": "https://paymongo.com/"
+        },
+        {
+            "position": "Ruby on Rails Engineer (Freelance)",
+            "company": "Milled",
+            "from": "March 2024",
+            "to": "March 2025",
+            "work": "Helped rebuild a 12-year-old email marketing and search platform used by marketers and shoppers by developing internal admin tools, redesigning the homepage, building a mobile-responsive user dashboard, improving UX/UI, optimizing the search engine (41M+ emails, 99k+ brands) with Manticore Search, and maintaining system health through Datadog and Honeybadger.",
+            "component": "WorkTwoToneIcon",
+            "link": "https://milled.com"
+        },
+        {
             "position": "Web Application Developer",
             "company": "Squadzip",
             "from": "August 2022",
             "to": "Present",
             "work": "Migrating company's web application from version 1 to version 2, providing optimized solution and applying best practices using React and Ruby on Rails. Providing new features based on the client requests and application's improvement. Maintain old and new features of the application.",
             "component": "WorkTwoToneIcon",
-            "link": "https://squadzip.com/"
+            "link": "https://squadzip.com"
         },
         {
             "position": "Application Developer Internship",

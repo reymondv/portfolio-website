@@ -4,7 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { nameContainer, roleContainer, item } from './variants';
 
 export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
-  const { name } = data.profile;
+  const { profile:{ name, role }  } = data;
   const controls = useAnimation();
   const nameArray = name.split('');
 
@@ -39,7 +39,7 @@ export const AnimatedName = ({ isInView }: { isInView: boolean }) => {
       <motion.div
         variants={item}
         className='text-orange-400 md:ml-3 md:border-l-2 flex md:pl-2 md:border-l-orange-400'>
-        <p className='my-auto'>Software Engineer</p>
+        <p className='my-auto'>{role}</p>
       </motion.div>
     </motion.div>
   );

@@ -37,7 +37,7 @@ const GridTimeline = ({ experience }: Experience) => {
     <div className='flex justify-between md:odd:flex-row-reverse md:odd:text-right md:flex-row flex-col-reverse group bg-[#0f0b0b5f] shadow-md shadow-[#4a4a4a] md:bg-[unset] md:my-0 my-5 rounded-lg md:rounded-none md:shadow-none'>
       <div className='p-5 justify-center items-center w-full md:bg-[#1717175f] md:shadow-inner md:shadow-[#0d0d0d] rounded-xl md:rounded-md transition-all ease-in-out duration-1000'>
         <div className='flex justify-between items-center md:group-odd:flex-row-reverse'>
-          <div>
+          <div className='flex flex-col gap-2 pb-4'>
             <h1 className='md:text-4xl font-semibold tracking-wide'>
               {experience.company}
             </h1>
@@ -48,13 +48,16 @@ const GridTimeline = ({ experience }: Experience) => {
           <div>{dropdownButton()}</div>
         </div>
         <div className='overflow-hidden'>
-          <p
+          <div
             className={
-              'text-left md:text-base text-lg  text-comment overflow-hidden transition-all ease-linear duration-700 ' +
+              'text-left md:text-base text-lg  text-comment overflow-hidden transition-all ease-linear duration-700  flex gap-4 flex-col ' +
               (description ? 'md:max-h-72 max-h-[30rem]' : 'max-h-0')
             }>
-            {experience.work}
-          </p>
+            <p>{experience.work}</p>
+            <p className='text-left md:text-base text-lg  text-comment overflow-hidden transition-all ease-linear duration-700 italic'>
+              <a className='text-blue-600 dark:text-blue-500 hover:underline' href={experience?.link}>{experience?.link}</a>
+            </p>
+          </div>
         </div>
       </div>
       <div className='p-5 flex justify-start items-start md:items-center overflow-hidden group/div md:group-even:flex-row-reverse relative w-full'>

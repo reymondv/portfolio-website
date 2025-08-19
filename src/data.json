@@ -1,259 +1,304 @@
 {
-    "profile": {
-        "displayPicture": "/images/profile.jpg",
-        "description": ["Full-stack developer with 3+ years of experience delivering scalable and maintainable web and API solutions. Proven success in building SaaS platforms, CRM tools, and fintech onboarding systems using modern technologies across the stack. Strong collaborator with cross-functional teams to drive efficient, high-quality software delivery."],
-        "name": "Reymond Y. Villanueva",
-        "role": "Fullstack Software Engineer",
-        "location": "La Union, Philippines",
-        "gender": "Male",
-        "school": {
-            "name": "Saint Louis University",
-            "location": "Baguio City, Philippines",
-            "graduated": "June 2022"
-        },
-        "degree": {
-            "abbr": "BSIT",
-            "short": "BS in Information Technology",
-            "full": "Bachelor of Science in Information Technology"
-        }
-    },
-    "cv": {
-        "file": "/cv.reymond.villanueva_2.pdf",
-        "name": "My CV",
-        "label": "CV"
-    },
-    "skills": {
-        "general": [
-            "Fullstack Developer", "Frontend Developer", "Web and Software application"
-        ],
-        "stack": [{
-                "name": "React",
-                "img": "https://img.icons8.com/office/40/000000/react.png"
-            },
-            {
-                "name": "TailwindCSS",
-                "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
-            },
-            {
-                "name": "Bootstrap",
-                "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
-            },
-            {
-                "name": "TypeScript",
-                "img": "https://img.icons8.com/color/48/typescript.png"
-            },
-            {
-                "name": "JavaScript",
-                "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-            },
-            {
-                "name": "HTML5",
-                "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-            },
-            {
-                "name": "CSS3",
-                "img": "https://img.icons8.com/color/48/000000/css3.png"
-            },
-            {
-                "name": "Laravel",
-                "img": "https://img.icons8.com/fluency/48/000000/laravel.png"
-            },
-            {
-                "name": "Ruby on Rails",
-                "img": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-rails-a-server-side-web-application-framework-written-in-ruby-logo-color-tal-revivo.png"
-            },
-            {
-                "name": "Java",
-                "img": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-            },
-            {
-                "name": "Python",
-                "img": "https://img.icons8.com/color/48/000000/python--v1.png"
-            },
-            {
-                "name": "PostgreSQL",
-                "img": "https://img.icons8.com/color/48/postgreesql.png"
-            },
-            {
-                "name": "Redis",
-                "img": "https://img.icons8.com/color/48/redis.png"
-            },
-            {
-                "name": "Firebase",
-                "img": "https://img.icons8.com/color/48/firebase.png"
-            },
-            {
-                "name": "MySQL",
-                "img": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-            },
-            {
-                "name": "Git",
-                "img": "https://img.icons8.com/color/48/000000/git.png"
-            }
-        ],
-        "other": ["Network administration", "Network troubleshooting", "Git", "Microsoft Power Apps"]
-    },
-    "experience": [
-        {
-            "position": "Software Engineer (Outsourced via Ascendion)",
-            "company": "PayMongo",
-            "from": "August 2024",
-            "to": "Present",
-            "work": "Contributed to full-stack development of onboarding and account management for parent-child merchant systems using React (Remix) and Ruby on Rails; built KYC flows, dashboard components, and webhook notifications with Sidekiq and the observer pattern; supported deployments via AWS Session Manager and ECS Exec, improved API performance and security through SQL optimization and rate limiting, and collaborated cross-functionally to deliver high-quality features.",
-            "component": "WorkTwoToneIcon",
-            "link": "https://paymongo.com/"
-        },
-        {
-            "position": "Ruby on Rails Engineer (Freelance)",
-            "company": "Milled",
-            "from": "March 2024",
-            "to": "March 2025",
-            "work": "Helped rebuild a 12-year-old email marketing and search platform used by marketers and shoppers by developing internal admin tools, redesigning the homepage, building a mobile-responsive user dashboard, improving UX/UI, optimizing the search engine (41M+ emails, 99k+ brands) with Manticore Search, and maintaining system health through Datadog and Honeybadger.",
-            "component": "WorkTwoToneIcon",
-            "link": "https://milled.com"
-        },
-        {
-            "position": "Web Application Developer",
-            "company": "Squadzip",
-            "from": "August 2022",
-            "to": "Present",
-            "work": "Migrating company's web application from version 1 to version 2, providing optimized solution and applying best practices using React and Ruby on Rails. Providing new features based on the client requests and application's improvement. Maintain old and new features of the application.",
-            "component": "WorkTwoToneIcon",
-            "link": "https://squadzip.com"
-        },
-        {
-            "position": "Application Developer Internship",
-            "company": "Accenture",
-            "from": "February 2022",
-            "to": "June 2022",
-            "work": "Developed an application using Microsoft Power Apps and SharePoint List as the application's back-end. I've been trained and knowledgeable in Microsoft Power Automate and exposed in collaboration with the team during scrums and sprint meetings.",
-            "component": "SchoolTwoToneIcon",
-            "link": "https://accenture.com/"
-        },
-        {
-            "position": "Lead Programmer (Thesis Project)",
-            "company": "Saint Louis University",
-            "from": "May 2021",
-            "to": "November 2021",
-            "work": "Developed an Asset Management System for DICT - Luzon Cluster 1 for my capstone(IT Project) as a Full-stack web developer and the Lead Programmer of the team. Web development background and technologies used are HTML5, CSS3, JavaScript, PHP, Laravel 7, Bootstrap, and MySQL.",
-            "component": "SchoolTwoToneIcon",
-            "link": "https://www.slu.edu.ph/"
-        }
+  "profile": {
+    "displayPicture": "/images/profile.jpg",
+    "description": [
+      "Full-stack developer with 3+ years of experience delivering scalable and maintainable web and API solutions. Proven success in building SaaS platforms, CRM tools, and fintech onboarding systems using modern technologies across the stack. Strong collaborator with cross-functional teams to drive efficient, high-quality software delivery."
     ],
-    "links": {
-        "email": "reymondyv@gmail.com",
-        "github": "http://github.com/reymondv",
-        "linkedin": "http://linkedin.com/in/reymondyv"
+    "name": "Reymond Y. Villanueva",
+    "role": "Fullstack Software Engineer",
+    "location": "La Union, Philippines",
+    "gender": "Male",
+    "school": {
+      "name": "Saint Louis University",
+      "location": "Baguio City, Philippines",
+      "graduated": "June 2022"
     },
-    "projects": [{
-            "title": "Realtime Chat using Firestore",
-            "file": "/carousel/project-3.png",
-            "link": "https://github.com/reymondv/vite-ts-react",
-            "description": "",
-            "stack": [{
-                    "name": "React",
-                    "img": "https://img.icons8.com/office/40/000000/react.png"
-                },
-                {
-                    "name": "TypeScript",
-                    "img": "https://img.icons8.com/color/48/typescript.png"
-                },
-                {
-                    "name": "Firebase",
-                    "img": "https://img.icons8.com/color/48/firebase.png"
-                },
-                {
-                    "name": "TailwindCSS",
-                    "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
-                }
-            ]
-        },
-        {
-            "title": "Shopping Cart",
-            "file": "/carousel/project-5.png",
-            "link": "https://github.com/reymondv/shopping-cart",
-            "description": "",
-            "stack": [{
-                    "name": "React",
-                    "img": "https://img.icons8.com/office/40/000000/react.png"
-                },
-                {
-                    "name": "TypeScript",
-                    "img": "https://img.icons8.com/color/48/typescript.png"
-                },
-                {
-                    "name": "TailwindCSS",
-                    "img": "https://img.icons8.com/color/48/000000/tailwindcss.png"
-                }
-            ]
-        },
-        {
-            "title": "Simple Social Media Application",
-            "file": "/carousel/project-4.png",
-            "link": "https://github.com/reymondv/social-media-app",
-            "description": "",
-            "stack": [{
-                    "name": "React",
-                    "img": "https://img.icons8.com/office/40/000000/react.png"
-                },
-                {
-                    "name": "Javascript",
-                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-                },
-                {
-                    "name": "CSS3",
-                    "img": "https://img.icons8.com/color/48/000000/css3.png"
-                }
-            ]
-        },
-        {
-            "title": "DICT Asset Management System",
-            "file": "/carousel/project-1.png",
-            "description": "",
-            "stack": [{
-                    "name": "Laravel",
-                    "img": "https://img.icons8.com/fluency/48/000000/laravel.png"
-                },
-                {
-                    "name": "PHP",
-                    "img": "https://img.icons8.com/offices/40/000000/php-logo.png"
-                },
-                {
-                    "name": "JavaScript",
-                    "img": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-                },
-                {
-                    "name": "Bootstrap",
-                    "img": "https://img.icons8.com/color/48/000000/bootstrap.png"
-                },
-                {
-                    "name": "MySQL",
-                    "img": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-                },
-                {
-                    "name": "Git",
-                    "img": "https://img.icons8.com/color/48/000000/git.png"
-                }
-            ]
-        },
-        {
-            "title": "FAQ's Chatbot",
-            "file": "/carousel/project-2.png",
-            "link": "https://gitlab.com/2191962/data-mining-chatbot",
-            "description": "",
-            "stack": [{
-                    "name": "Python",
-                    "img": "https://img.icons8.com/color/48/000000/python--v1.png"
-                },
-                {
-                    "name": "HTML5",
-                    "img": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-                },
-                {
-                    "name": "CSS3",
-                    "img": "https://img.icons8.com/color/48/000000/css3.png"
-                }
-            ]
-        }
+    "degree": {
+      "abbr": "BSIT",
+      "short": "BS in Information Technology",
+      "full": "Bachelor of Science in Information Technology"
+    }
+  },
+  "cv": {
+    "file": "/cv.reymond.villanueva_2.pdf",
+    "name": "My CV",
+    "label": "CV"
+  },
+  "skills": {
+    "general": [
+      "Fullstack Developer",
+      "Frontend Developer",
+      "Web and Software application"
+    ],
+    "stack": [
+      {
+        "name": "JavaScript",
+        "value": "javascript"
+      },
+      {
+        "name": "Ruby",
+        "value": "ruby"
+      },
+      {
+        "name": "TypeScript",
+        "value": "typescript"
+      },
+      {
+        "name": "Go",
+        "value": "go"
+      },
+      {
+        "name": "Python",
+        "value": "python"
+      },
+      {
+        "name": "Ruby on Rails",
+        "value": "ror"
+      },
+      {
+        "name": "React",
+        "value": "react"
+      },
+      {
+        "name": "Next.js",
+        "value": "nextjs"
+      },
+      {
+        "name": "Remix/React Routver v7",
+        "value": "remix"
+      },
+      {
+        "name": "HTML5",
+        "value": "html"
+      },
+      {
+        "name": "CSS3",
+        "value": "css"
+      },
+      {
+        "name": "TailwindCSS",
+        "value": "tailwind"
+      },
+      {
+        "name": "SCSS",
+        "value": "scss"
+      },
+      {
+        "name": "PostgreSQL",
+        "value": "postgres"
+      },
+      {
+        "name": "MySQL",
+        "value": "mysql"
+      },
+      {
+        "name": "Redis",
+        "value": "redis"
+      },
+      {
+        "name": "Firebase",
+        "value": "firebase"
+      },
+      {
+        "name": "Supabase",
+        "value": "supabase"
+      },
+      {
+        "name": "AWS",
+        "value": "aws"
+      },
+      {
+        "name": "Terraform",
+        "value": "terraform"
+      },
+      {
+        "name": "Git",
+        "value": "git"
+      }
+    ],
+    "other": [
+      "Network administration",
+      "Network troubleshooting",
+      "Git",
+      "Microsoft Power Apps"
     ]
+  },
+  "experience": [
+    {
+      "position": "Software Engineer (Outsourced via Ascendion)",
+      "company": "PayMongo",
+      "from": "August 2024",
+      "to": "Present",
+      "work": "Contributed to full-stack development of onboarding and account management for parent-child merchant systems using React (Remix) and Ruby on Rails; built KYC flows, dashboard components, and webhook notifications with Sidekiq and the observer pattern; supported deployments via AWS Session Manager and ECS Exec, improved API performance and security through SQL optimization and rate limiting, and collaborated cross-functionally to deliver high-quality features.",
+      "component": "WorkTwoToneIcon",
+      "link": "https://paymongo.com/"
+    },
+    {
+      "position": "Ruby on Rails Engineer (Freelance)",
+      "company": "Milled",
+      "from": "March 2024",
+      "to": "March 2025",
+      "work": "Helped rebuild a 12-year-old email marketing and search platform used by marketers and shoppers by developing internal admin tools, redesigning the homepage, building a mobile-responsive user dashboard, improving UX/UI, optimizing the search engine (41M+ emails, 99k+ brands) with Manticore Search, and maintaining system health through Datadog and Honeybadger.",
+      "component": "WorkTwoToneIcon",
+      "link": "https://milled.com"
+    },
+    {
+      "position": "Web Application Developer",
+      "company": "Squadzip",
+      "from": "August 2022",
+      "to": "Present",
+      "work": "Migrating company's web application from version 1 to version 2, providing optimized solution and applying best practices using React and Ruby on Rails. Providing new features based on the client requests and application's improvement. Maintain old and new features of the application.",
+      "component": "WorkTwoToneIcon",
+      "link": "https://squadzip.com"
+    },
+    {
+      "position": "Application Developer Internship",
+      "company": "Accenture",
+      "from": "February 2022",
+      "to": "June 2022",
+      "work": "Developed an application using Microsoft Power Apps and SharePoint List as the application's back-end. I've been trained and knowledgeable in Microsoft Power Automate and exposed in collaboration with the team during scrums and sprint meetings.",
+      "component": "SchoolTwoToneIcon",
+      "link": "https://accenture.com/"
+    },
+    {
+      "position": "Lead Programmer (Thesis Project)",
+      "company": "Saint Louis University",
+      "from": "May 2021",
+      "to": "November 2021",
+      "work": "Developed an Asset Management System for DICT - Luzon Cluster 1 for my capstone(IT Project) as a Full-stack web developer and the Lead Programmer of the team. Web development background and technologies used are HTML5, CSS3, JavaScript, PHP, Laravel 7, Bootstrap, and MySQL.",
+      "component": "SchoolTwoToneIcon",
+      "link": "https://www.slu.edu.ph/"
+    }
+  ],
+  "links": {
+    "email": "reymondyv@gmail.com",
+    "github": "http://github.com/reymondv",
+    "linkedin": "http://linkedin.com/in/reymondyv"
+  },
+  "projects": [
+    {
+      "title": "Expense Tracker Web",
+      "file": "/carousel/project-6.png",
+      "link": "https://github.com/reymondv/vite-ts-react",
+      "description": "",
+      "stack": [
+        {
+          "name": "JavaScript",
+          "value": "javascript"
+        },
+        {
+          "name": "NextJS",
+          "value": "python"
+        },
+        {
+          "name": "React",
+          "value": "react"
+        },
+        {
+          "name": "TailwindCSS",
+          "value": "python"
+        }
+      ]
+    },
+    {
+      "title": "Expense Tracker API",
+      "file": "/carousel/project-6.png",
+      "link": "https://expense-api-z770.onrender.com/up",
+      "description": "",
+      "stack": [
+        {
+          "name": "Ruby",
+          "value": "ruby"
+        },
+        {
+          "name": "Ruby on Rails",
+          "value": "ror"
+        }
+      ]
+    },
+    {
+      "title": "Realtime Chat using Firestore",
+      "file": "/carousel/project-3.png",
+      "link": "https://github.com/reymondv/vite-ts-react",
+      "description": "",
+      "stack": [
+        {
+          "name": "React",
+          "value": "react"
+        },
+        {
+          "name": "TypeScript",
+          "value": "typescript"
+        },
+        {
+          "name": "Firebase",
+          "value": "firebase"
+        },
+        {
+          "name": "TailwindCSS",
+          "value": "tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Shopping Cart",
+      "file": "/carousel/project-5.png",
+      "link": "https://github.com/reymondv/shopping-cart",
+      "description": "",
+      "stack": [
+        {
+          "name": "React",
+          "value": "react"
+        },
+        {
+          "name": "TypeScript",
+          "value": "typescript"
+        },
+        {
+          "name": "TailwindCSS",
+          "value": "tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Simple Social Media Application",
+      "file": "/carousel/project-4.png",
+      "link": "https://github.com/reymondv/social-media-app",
+      "description": "",
+      "stack": [
+        {
+          "name": "React",
+          "value": "react"
+        },
+        {
+          "name": "Javascript",
+          "value": "javascript"
+        },
+        {
+          "name": "CSS3",
+          "value": "css"
+        }
+      ]
+    },
+    {
+      "title": "FAQ's Chatbot",
+      "file": "/carousel/project-2.png",
+      "link": "https://gitlab.com/2191962/data-mining-chatbot",
+      "description": "",
+      "stack": [
+        {
+          "name": "Python",
+          "value": "python"
+        },
+        {
+          "name": "HTML5",
+          "value": "html"
+        },
+        {
+          "name": "CSS3",
+          "value": "css"
+        }
+      ]
+    }
+  ]
 }

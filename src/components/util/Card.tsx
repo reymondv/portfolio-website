@@ -2,10 +2,10 @@ import React from "react";
 import RenderIcon from "../RenderIcon";
 
 interface Card {
-  img: string;
-  value: string;
+  img?: string;
+  value?: string;
   title: string;
-  icon: boolean;
+  icon?: boolean;
   size: number;
   className?: string;
   contents?: Stack[];
@@ -31,20 +31,25 @@ const Card = ({
 }: Card) => {
   if (icon) {
     return (
-      <div className={`${className}`} title={title}>
-        <div className="m-auto">
-          <div className="text-cyan-700/70">
-            <RenderIcon name={value} />
+      <>
+        <div className={`${className}`} title={title}>
+          <div className="m-auto">
+            <div className="text-cyan-700/70 flex justify-center flex-col">
+              <RenderIcon name={value} />
+            </div>
           </div>
         </div>
-      </div>
+        <div className="flex justify-center items-center pt-2">
+          <p>{title}</p>
+        </div>
+      </>
     );
   }
 
   return (
-    <div className={`${className}`} title={title}>
+    <div className={`${className}`}>
       <div className="m-auto">
-        <a href={link} rel="noopener noreferrer" target="_blank">
+        <a href={link} rel="noopener noreferrer" target="_blank" title={title}>
           <img
             src={img}
             alt={title}
@@ -68,6 +73,7 @@ const Card = ({
           <div className="text-black flex flex-wrap justify-center">
             {contents.map((content, index) => (
               <div
+                title={content.name}
                 key={index}
                 className="flex flex-col justify-center items-center m-1 p-2 rounded-md bg-[#ffffff] shadow-inner shadow-[#aaaaaa] max-w-32"
               >

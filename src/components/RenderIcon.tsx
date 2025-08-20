@@ -1,3 +1,4 @@
+import { ReactElement } from "react";
 import { BsFiletypeScss } from "react-icons/bs";
 import { FaAws } from "react-icons/fa6";
 import {
@@ -28,59 +29,36 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-export default function RenderIcon({ name }: { name: string }) {
-  switch (name) {
-    case "react":
-      return <RiReactjsFill className="w-11 h-11" />;
-    case "tailwind":
-      return <RiTailwindCssFill className="w-11 h-11" />;
-    case "typescript":
-      return <SiTypescript className="w-11 h-11" />;
-    case "javascript":
-      return <RiJavascriptFill className="w-11 h-11" />;
-    case "html":
-      return <RiHtml5Fill className="w-11 h-11" />;
-    case "css":
-      return <RiCss3Fill className="w-11 h-11" />;
-    case "postgres":
-      return <SiPostgresql className="w-11 h-11" />;
-    case "mysql":
-      return <SiMysql className="w-11 h-11" />;
-    case "git":
-      return <SiGit className="w-11 h-11" />;
-    case "ror":
-      return <SiRubyonrails className="w-11 h-11" />;
-    case "nextjs":
-      return <RiNextjsFill className="w-11 h-11" />;
-    case "aws":
-      return <FaAws className="w-11 h-11" />;
-    case "remix":
-      return <SiRemix className="w-11 h-11" />;
-    case "supabase":
-      return <RiSupabaseFill className="w-11 h-11" />;
-    case "redis":
-      return <SiRedis className="w-11 h-11" />;
-    case "docker":
-      return <SiDocker className="w-11 h-11" />;
-    case "datadog":
-      return <SiDatadog className="w-11 h-11" />;
-    case "circleci":
-      return <SiCircleci className="w-11 h-11" />;
-    case "go":
-      return <SiGo className="w-11 h-11" />;
-    case "ruby":
-      return <SiRuby className="w-11 h-11" />;
-    case "terraform":
-      return <SiTerraform className="w-11 h-11" />;
-    case "linear":
-      return <SiLinear className="w-11 h-11" />;
-    case "firebase":
-      return <RiFirebaseFill className="w-11 h-11" />;
-    case "scss":
-      return <BsFiletypeScss className="w-11 h-11" />;
-    case "python":
-      return <SiPython className="w-11 h-11" />;
-    default:
-      null;
-  }
+const ICONS: Record<string, ReactElement> = {
+  react: <RiReactjsFill className="w-11 h-11" />,
+  tailwind: <RiTailwindCssFill className="w-11 h-11" />,
+  typescript: <SiTypescript className="w-11 h-11" />,
+  javascript: <RiJavascriptFill className="w-11 h-11" />,
+  html: <RiHtml5Fill className="w-11 h-11" />,
+  css: <RiCss3Fill className="w-11 h-11" />,
+  postgres: <SiPostgresql className="w-11 h-11" />,
+  mysql: <SiMysql className="w-11 h-11" />,
+  git: <SiGit className="w-11 h-11" />,
+  ror: <SiRubyonrails className="w-11 h-11" />,
+  nextjs: <RiNextjsFill className="w-11 h-11" />,
+  aws: <FaAws className="w-11 h-11" />,
+  remix: <SiRemix className="w-11 h-11" />,
+  supabase: <RiSupabaseFill className="w-11 h-11" />,
+  redis: <SiRedis className="w-11 h-11" />,
+  docker: <SiDocker className="w-11 h-11" />,
+  datadog: <SiDatadog className="w-11 h-11" />,
+  circleci: <SiCircleci className="w-11 h-11" />,
+  go: <SiGo className="w-11 h-11" />,
+  ruby: <SiRuby className="w-11 h-11" />,
+  terraform: <SiTerraform className="w-11 h-11" />,
+  linear: <SiLinear className="w-11 h-11" />,
+  firebase: <RiFirebaseFill className="w-11 h-11" />,
+  scss: <BsFiletypeScss className="w-11 h-11" />,
+  python: <SiPython className="w-11 h-11" />,
+};
+
+export default function RenderIcon({ name }: { name?: string }) {
+  if (name === undefined || name === null) return null;
+
+  return ICONS[name] ?? null;
 }
